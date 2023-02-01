@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*
+Google fonts
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=B612&family=Crimson+Pro&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	background-color: #e4f2ea;
+}
+
+header h1{
+	font-size: 7em;
+	color: #e4f2ea;
+	margin-left: 8%;
+	font-family: 'Crimson Pro', serif;
+}
+
+header h2{
+	font-size: 3em;
+	color: #e4f2ea;
+	margin-left: 10%;
+}
+
+.hnav{
+	width: 100%;
+	background-color: #11181e;
+	min-height: 50px;
+	text-align: center;
+	padding: .8em;
+	
+}
+
+.hnav ul{
+	display: block;
+}
+
+.hnav ul li{
+	display: inline-block;
+	list-style-type: none;
+	width: 10%;
+	padding: 2%;
+}
+
+.hnav a{
+	text-decoration: center;
+	color: #e4f2ea;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: 'Crimson Pro', serif;
+}
+.hnav a:hover{
+	background-color: #A68160;
+	color: #11181e;
+}
+header{
+	min-height: 400px;
+	background-color:#734f2f;
+	background-image: url("../images/appearance_beagle.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+}
+
+
+main{
+	width: 100%;
+	min-height: 500px;
+}
+
+#container{
+	margin: 0 auto;
+	width: 80%;
+	min-height: 500px;
+	font-size: 1.8em;
+	font-family: 'Crimson Pro', serif;
+/*  background color: red;    */
+}
+
+#container img{
+	float: left;
+	margin-right: 2%;
+	border: 20px double #734f2f;
+	border-radius: 10px;
+
+}
+
+h1{
+	font-family: 'B612', sans-serif;
+font-family: 'Crimson Pro', serif;
+}
+
+h2{
+	font-family: 'B612', sans-serif;
+font-family: 'Crimson Pro', serif;
+}
+
+
+blockquote{
+	font-size: 3em;
+	color: #734f2f;
+	font-family: 'Crimson Pro', serif;
+	margin-bottom: 0.1em;
+}
+
+
+table{
+	
+}
+
+
+
+footer{
+	min-height: 300px;
+	background-color: #11181e;
+	text-align: center;
+	color:#e4f2ea;
+	padding-top: 5%;
+}
+
+.fnav{
+	width: 100%;
+	background-color: #734f2f;
+	min-height: 20px;
+	text-align: center;
+	padding-bottom: .8em;
+	
+}
+
+
+
+.fnav ul{
+	display: block;
+	padding-top: .8em;
+	
+}
+
+.fnav a:hover{
+	background-color: #A68160;
+	color: #11181e;
+}
+
+/*Style rule for form element */
+	form {
+		background-color: #e4f2ea;
+		padding: 1em;
+		text-align: right;
+		
+	}
+	
+	/* Style rule for paragraph within form element */
+	form p {
+		color: #000000;
+	}
+
+form ledgend{
+	padding-right: 8em;
+}
+
+form ul{
+	padding-left: 5em;
+}
+
+form li{
+	padding-right: 16em;
+	list-style-type: none;
+}
+
+form div{
+	padding-right: 4em;
+}
+
+.formgrid{
+	 
+}
+
